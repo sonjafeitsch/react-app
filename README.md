@@ -31,7 +31,7 @@ Klone Dir im nächsten Schritt das Repository mit unserem Test-Projekt.
 git clone ssh://git-codecommit.eu-central-1.amazonaws.com/v1/repos/react-app
 ```
 
-Wechsel in das Verzeichnis des Respos und installiere Dir mit `npm install` die notwendigen Abhängigkeiten. Mit `npm start` kannst Du dann die React App ganz einfach starten.
+Wechsel in das Verzeichnis des Respos und installiere mit `npm install` die notwendigen Abhängigkeiten. Mit `npm start` kannst Du dann die React App ganz einfach starten. Mit `npm start` fährt die React App automatisch hoch und kann direkt unter `localhost:3000` aufgerufen werden. Sollte der Port 3000 belegt sein, bekommst Du normalerweise direkt einen Hinweis auf der Kommandozeile und Du kannst einen alternativen Port auswählen. Am Ende solltest Du auf einer weißen Seite mit dem Text "Hello React" landen.
 
 ```
 cd react-app
@@ -39,4 +39,4 @@ npm install
 npm start
 ```
 
-Mit `npm start` fährt die React App automatisch hoch und kann direkt unter `localhost:3000` aufgerufen werden. Sollte der Port 3000 belegt sein, bekommst Du normalerweise direkt einen Hinweis auf der Kommandozeile und Du kannst einen alternativen Port auswählen. Am Ende solltest Du auf einer weißen Seite mit dem Text "Hello React" landen.
+Zu guter Letzt brauchst Du noch eine Entwicklungsumgebung und ich empfehle Dir VSCode. VSCode kannst Du Dir einfach über die offizielle Website unter [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) installieren.
