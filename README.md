@@ -2,8 +2,9 @@
 
 ## Getting Started
 
-Um die React-App starten zu können benötigst Du zunächst Node.js. Node.js ist eine Laufzeitumgebung für JavaScript, mit der sowohl Frontends als auch Backends betrieben werden können. Für macOS kann Node ganz einfach mit brew direkt in der Kommandozeile installiert werden. Weitere Infos zu Node.js findest Du auf der offiziellen Homepage unter [https://nodejs.org/en/](https://nodejs.org/en/).
+Um die React-App starten zu können benötigst Du zunächst Node.js. Das ist eine Laufzeitumgebung für JavaScript, mit der sowohl Frontends als auch Backends betrieben werden können. Für macOS kann Node ganz einfach über Homebrew direkt in der Kommandozeile installiert werden. Weitere Informationen zur Installation von Node.js für macOS findest Du auch unter [https://nodejs.org/en/download/package-manager/#macos](https://nodejs.org/en/download/package-manager/#macos).
 
+Installiere node via Homebrew:
 ```
 brew install node
 ```
@@ -28,7 +29,7 @@ Der Output sollte dabei 8.0.0 oder höher sein.
 Klone Dir im nächsten Schritt das Repository mit unserem Test-Projekt.
 
 ```
-git clone ssh://git-codecommit.eu-central-1.amazonaws.com/v1/repos/react-app
+git clone https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/react-app
 ```
 
 Wechsel in das Verzeichnis des Respos und installiere mit `npm install` die notwendigen Abhängigkeiten. Mit `npm start` kannst Du dann die React App ganz einfach starten. Mit `npm start` fährt die React App automatisch hoch und kann direkt unter `localhost:3000` aufgerufen werden. Sollte der Port 3000 belegt sein, bekommst Du normalerweise direkt einen Hinweis auf der Kommandozeile und Du kannst einen alternativen Port auswählen. Am Ende solltest Du auf einer weißen Seite mit dem Text "Hello React" landen.
